@@ -129,14 +129,18 @@ class TeamImage extends StatelessWidget {
                   Positioned(
                     top: 29,
                     right: 17,
-                    child: AppxText(
-                      text: "$minutes : $seconds",
+                    child: AppxTe
+                    xt(
+
+                      text: "$minutes : $seco
+                      nds",
                       fontWeight: FontWeight.bold,
                       size:
                           AppxData().deviceType == DeviceType.tablet ? 20 : 15,
                     ),
                   )
               ],
+
             );
           },
         );
